@@ -1,0 +1,8 @@
+div[class^='PagePreview_clearAllButton'] {
+  display: none !important;
+}
+
+div[class^='PagePreview_pagePreview']
+  div[class^='PagePreview_previewViewport'] {
+  height: calc(100% - 58px) !important;
+}
